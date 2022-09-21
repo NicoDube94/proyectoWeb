@@ -4,7 +4,6 @@ const mime=require('mime-types');
 
 function route(handle,req,res){
 	const pathname= URL.parse(req.url).pathname;
-	// console.log("Request for path "+pathname+" recibed");
 	if(typeof handle[pathname]==='function'){
 		handle[pathname](req,res);
 	}else{

@@ -22,16 +22,18 @@ function home(req,res){
 			res.end();
 		}
 	})
+	let obj={};
 	let form = new formidable.IncomingForm();
 	form.parse(req,(err,fields, files) =>{
-		// fs.readFile('./feeds/noticias.json',(err,contenido) =>{
-		// 	if(err) console.log(err+''.red.strikethrough);
-		// 	else{
-
-		// 	}
-		// });
+		 fs.readFile('./feeds/noticias.json',(err,contenido) =>{
+			if(err) console.log(err);
+		 	else{
+        obj=contenido;
+			}
+	 });
 		console.log(fields)
 	})
+	
 }
 function editarContenido(req,res){
 	fs.stat("./feeds/editarContenido.html",(error)=>{
