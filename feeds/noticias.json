@@ -1,0 +1,33 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "author": "Yahoo Finance",
+      "title": "Past the Merge, crypto firms grapple with with ether spinoffs",
+      "description": "With Ethereum’s now finished Merge upgrade to proof of stake, crypto companies are grappling with what to do about assets’ new spinoffs.",
+      "url": "https://finance.yahoo.com/news/past-the-merge-crypto-firms-grapple-with-with-ether-spinoffs-010526556.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/pgmMWEl.ZKIhPBZiwrJJbg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTU-/https://s.yimg.com/os/creatr-uploaded-images/2022-03/4fc2aff0-a5dc-11ec-bbdf-c9a2543bd844",
+      "publishedAt": "2022-09-19T01:05:26Z"
+    },
+    {
+      "id": 2,
+      "author": "Víctor Rosas",
+      "title": "Aprovechan filtración de GTA 6 para cometer un fraude con criptomonedas",
+      "description": "Editorial: Gaming / Facebook / Twitter / YouTube / Instagram / Noticias / Discord /Telegram / Google News\nContinuar leyendo »",
+      "url": "https://www.levelup.com/noticias/699923/Aprovechan-filtracion-de-GTA-6-para-cometer-un-fraude-con-criptomonedas",
+      "urlToImage": "https://cl.buscafs.com/www.levelup.com/public/uploads/images/761869/761869_600x315.jpg",
+      "publishedAt": "2022-09-19T01:00:00Z",
+      "content": "Editorial: Gaming / Facebook / Twitter / YouTube / Instagram / Noticias / Discord /Telegram / Google News\r\nNo, las criptomonedas no han muerto y el que su escena y precios se encuentren a la baja tra… [+2680 chars]"
+    },
+    {
+      "id": 3,
+      "author": "Sam Reynolds, James Rubin",
+      "title": "First Mover Asia: Cryptos Slide in Weekend Trading; Did Ethereum Pick the Wrong Time to Merge?",
+      "description": "Ether sinks to its lowest level since July; bitcoin falls below $19.5K.",
+      "url": "https://www.coindesk.com/markets/2022/09/19/first-mover-asia-cryptos-slide-in-weekend-trading-did-ethereum-pick-the-wrong-time-to-merge/",
+      "urlToImage": "https://www.coindesk.com/resizer/mPAsPdfiKMgRQ7mV2mnrW21aB5o=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/S5AQ4QRIDFAGZP25LYFR2IZMIA.jpg",
+      "publishedAt": "2022-09-19T00:32:40Z",
+      "content": "Good morning. Heres whats happening:\r\nPrices: Ether sinks to its lowest level since July; bitcoin and major altcoins tumble as investors await the latest U.S. central bank interest rate decision.\r\nIn… [+9310 chars]"
+    }
+  ]
+}

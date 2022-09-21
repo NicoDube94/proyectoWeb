@@ -1,0 +1,19 @@
+{
+  "name": "parcial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "formidable": "^2.0.1",
+    "mime-types": "^2.1.35",
+    "nodemon": "^2.0.20"
+  }
+}

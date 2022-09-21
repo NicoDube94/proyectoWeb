@@ -1,0 +1,40 @@
+body{
+    background-color: #561989;
+    color: #fff;
+}
+.content{
+    /* max-width: 90%; */
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    word-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.noticias{
+    margin-top:20px;
+    max-width: 70%;
+    padding-left: 15px;
+    border: 2px double #999;
+    border-radius:8px;
+    min-width:70%;
+}
+.titulo{
+    margin-top:12px;
+    font-size: 35px;
+}
+.contenido{
+    max-width: 80%;
+}
+.image{
+    max-width: 70%;
+    border-radius: 8px;
+}
+.fecha{
+    margin-top: -5px;
+    font-style: italic;
+    font-size: 12px;
+}
+a{
+    color: #999
+}

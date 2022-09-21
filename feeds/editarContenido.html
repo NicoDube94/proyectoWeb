@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Contenido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/home" method="post" enctype="multipart/form-data" id="form">
+        <textarea name="area" id="area" cols="60" rows="15" class="area"></textarea><br>
+        <input type="submit" value="Editar" id="bot">
+    </form>
+    <script>
+        const contenido={};
+        const area=document.getElementById('area').value;
+        fetch('http://localhost:8888/editarContenido',{
+        method: 'POST',
+        headers: {
+            'content-type': 'text/plain'
+        },
+        body:contenido
+        })
+
+</script>
+</body>
+</html>
