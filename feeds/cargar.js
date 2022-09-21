@@ -12,12 +12,8 @@ fetch('./noticias.json').then(res => res.json())
             <p class="fecha">${cont.publishedAt}</p>
             <p class="autor"><strong>Autor: </strong>${cont.author}</p>
             <p class="contenido">${content}</p>
-            <a href="/editarContenido" id="${cont.id}" onclick='pasarId()'>Editar Contenido</a>
+            <a href="/editarContenido" id="${cont.id}" class='enlase' >Editar Contenido</a>
             </div>`;
         principal.innerHTML+=html;
     });
 });
-function pasarId() {
-    const enlase=document.querySelectorAll('a');
-    console,log(enlase);
-}
